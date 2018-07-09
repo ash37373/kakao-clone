@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Box Model</title>
+    <style>
+      body,html{
+        padding: 0;
+        margin: 0;
+        background-color: green;
+        height: 100%;
+      }
+      .box{
+        background-color: yellow;
+        width: 50%;
+        height: 50%;
+        padding: 50px 10px;
+        /* 마진, 패딩 단축 : 상우하좌, 상하 좌우   */
+
+      }
+      .inside-box{
+        background-color: blue;
+        width: 50%;
+        height: 50%;
+        border: 5px solid red;
+        /* 보더 단축 : 폭 스타일 색상; width solid red; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="inside-box"></div>
+    </div>
+  </body>
+</html>

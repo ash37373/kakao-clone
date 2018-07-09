@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inline Example</title>
+    <style>
+      .box{
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- div.box*3 -->
+    <!-- 블록이 무엇이냐 : 블록은 그 바로옆에 아무것도 없을때 블록이라고 한다. 다시한번, 블록은 element가 크기와 상관없이
+          그 옆에 다른 element가 위치하는 것을 허용하지 않는 것 . display값이 inline-block, block 두가지가 존재 디폴트는 block임. -->
+          <!-- 인라인은 텍스트다. 텍스트는 높이도 폭도 없다. 컨텐츠의 길이만 존재한다 -->
+
+          <!-- 정리하자면, 인라인은 서로 옆에 붙는 형태, 그러나 폭-높이 박스 없이.
+          인라인-블록은 박스들이 서로 옆에 붙는것,
+          블록은 박스들이 밑에 붙는 것 -->
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </body>
+</html>
